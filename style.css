@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    justify-content: center;
+    
+}
+
+.Perfume .image img{
+    width: 340px;
+    height: 490px;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.image {
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+}
+
+.Perfume{
+    height: 491px;
+    border-radius: 20px;
+    margin-left: 302px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: hsl(0, 0%, 100%);
+    display: grid;
+    gap: 20px;
+    width: 650px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+}
+/* - Mobile: 375px */
+@media (min-width:375px) {
+    .Perfume{
+    background-color: hsl(0, 0%, 100%);
+    
+    }
+}
+/* - Mobile */
+.Perfume .description {
+    padding: 20px;
+    width: 240px;
+    margin-left: 20px;
+}
+
+
+.Perfume .description h3  {
+    font-size: 12px;
+    letter-spacing: 8px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+    opacity: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Perfume .description p{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    opacity: 80%;
+    font-family: 'Hanken Grotesk', sans-serif ;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.Perfume .description h1{
+    font-family: 'Fraunces', serif;
+    line-height: 35px;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+
+.Perfume .description h2{
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    margin: 20px;
+    margin-left: 0;
+    margin-bottom: 40px;
+
+
+}
+
+.Perfume .description h2 span{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+}
+
+.description button{
+    color: hsl(0 ,0%,100%);
+    border: none;
+    width: 230px;
+    font-size: 15px;
+    height: 52px;
+    font-weight: 600;
+    padding: 10px;
+    background-color:hsl(158, 36%, 37%) ;
+    border-radius: 10px;
+    font-family: 'Hanken Grotesk', sans-serif ;
+    
+}
+.description button img{
+    margin-right: 10px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
